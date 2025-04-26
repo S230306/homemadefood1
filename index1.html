@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Made Kitchen | Fresh Food Delivery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #fff8f0;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+      min-height: 100vh; /* Ensure body takes up full height */
+    }
+    header {
+      background: linear-gradient(135deg, #ff7f50, #ff5722);
+      color: white;
+      padding: 20px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+    header .logo {
+      max-width: 100px;
+      height: auto;
+    }
+    .hero-image {
+      width: 100%;
+      height: 300px;
+      background-image: url('https://images.unsplash.com/photo-1606788075760-7bc6b01b7e1e');
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    section {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .about, .menu, .contact {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .about h2, .menu h2, .contact h2 {
+      color: #ff5722;
+      margin-bottom: 15px;
+    }
+    .about p, .contact p {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 12px;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .menu-item {
+      background: #fff8f0;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .menu-item h3 {
+      padding: 10px;
+      font-size: 1.1em;
+      color: #333;
+    }
+    .call-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #ff7f50;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background 0.3s ease;
+    }
+    .call-btn:hover {
+      background: #ff5722;
+    }
+    footer {
+      background: #ff7f50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      .hero-image {
+        height: 200px;
+      }
+      .menu-items {
+        flex-direction: column;
+        align-items: center;
+      }
+      .menu-item {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
+      .about p, .contact p {
+        font-size: 1em;
+      }
+      .call-btn {
+        font-size: 1em;
+        padding: 10px 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      header p {
+        font-size: 0.9em;
+      }
+      .menu-item {
+        width: 100%;
+        max-width: 100%;
+      }
+      .menu-item img {
+        height: 150px;
+      }
+      .about p, .contact p {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="kitchenlogo.PNG" alt="Home Made Kitchen Logo" class="logo">
+  <div>
+    <h1>Home Made Kitchen</h1>
+    <p>We deliver fresh, home-made food to your doorstep</p>
+  </div>
+</header>
+
+<div class="hero-image"></div>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>Welcome to <strong>Home Made Kitchen</strong>! Based in Vizag, Vishakhapatnam (PIN 530041), we specialize in delivering 100% home-made meals crafted with love and fresh ingredients.</p>
+  <p>Enjoy the authentic taste of home with every meal!</p>
+  <p>మీకు స్వాగతం <strong>హోమ్ మేడ్ కిచెన్</strong>! విజాగ్, విశాఖపట్నం (PIN 530041) లో ఆధారితంగా, మేము ప్రేమతో మరియు తాజా పదార్థాలతో తయారుచేసిన 100% హోమ్ మేడ్ భోజనాలను మీ గృహం దొరికేలా అందించడంలో నిపుణులం.</p>
+
+<p>ప్రతి భోజనంతో గృహస్వరూప రుచి అనుభవించండి!</p>
+
+</section>
+
+
+<section class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-items">
+    <div class="menu-item">
+      <img src="Arisalu.jpeg" alt="Arisalu">
+      <h3>Arisalu</h3>
+    </div>
+    <div class="menu-item">
+      <img src="Vadiyallu.jpeg" alt="Vadiyallu">
+      <h3>Vadiyallu</h3>
+    </div>
+    <div class="menu-item">
+      <img src="Chicken Pickle.jpeg" alt="Chicken Pickle">
+      <h3>Chicken Pickle</h3>
+    </div>
+    <div class="menu-item">
+      <img src="more coming soon.PNG" alt="Chapathi & Curry">
+      <h3>more items we will add soon</h3>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Location:</strong> Vizag, Vishakhapatnam</p>
+  <p><strong>Mobile:</strong> 6301481463</p>
+  <p><strong>Email:</strong> (Coming Soon)</p>
+  <a href="tel:6301481463" class="call-btn">Call Now</a>
+</section>
+
+<footer>
+  <p>© 2025 Home Made Kitchen | 100% Home Made Food | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
